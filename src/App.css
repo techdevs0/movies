@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.page-link:focus {
+  box-shadow: none !important;
+  background-color: unset !important;
+}
