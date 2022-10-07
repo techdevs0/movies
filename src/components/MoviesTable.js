@@ -35,7 +35,7 @@ function MoviesTable({moviesData}) {
                     <TableRow key={movie.id} movie={movie} index={index} />
                 )) :
                 <tr>
-                    <td colSpan="5" className="noRecordTd">No Record Found</td>
+                    <td colSpan="5" className="text-center">No Record Found</td>
                 </tr>
                 }
             </tbody>
